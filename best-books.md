@@ -1,11 +1,17 @@
 # List of best books read in 2023 by Botany 563 Spring 2024 class
-
-- Sarah: Les Miserables by Victor Hugo 
+- Roberto: The famine plot by Tim Pat Coogan
+- -Laurel Sutherland
+- Sarah: Les Miserables by Victor Hugo
 - Jackie Lemaire: Lessons in Chemistry
 - Song of Achilles by Madeline Miiller
 - Avery Imes: Six of Crows
 - Harrison Estes: The Lord of the Rings
-
+- Jinhui:  population genetics/many times
+- Ben Haefner: The Lord of the Rings
+- Amish: The oath of Vayuputras 
+- Zach Farrand: Tales from the Ant World
+- Jamie : The court of thorns and roses 
+- Kaiju Preservation Society by John Scalzi
 
 
 
