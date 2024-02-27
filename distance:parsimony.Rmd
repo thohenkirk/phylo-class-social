@@ -1,0 +1,51 @@
+---
+title: "path 563"
+author: "STAT 571"
+date: "2024-02-27"
+output: html_document
+---
+
+
+```{r}
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+```
+
+```{r}
+
+```
+```{r}
+dna <- fasta2DNAbin(file="http://adegenet.r-forge.r-project.org/files/usflu.fasta")
+
+```
+```{r}
+D <- dist.dna(dna, model="TN93")
+```
+
+```{r}
+tre <- nj(D)
+tre <- ladderize(tre)
+```
+
+```{r}
+plot(tre, cex=.6)
+title("A simple NJ tree")
+```
+
+```{r}
+dna2 <- as.phyDat(dna)
+```
+
+```{r}
+tre.ini <- nj(dist.dna(dna,model="raw"))
+parsimony(tre.ini, dna2)
+```
+
+```{r}
+tre.pars <- optim.parsimony(tre.ini, dna2)
+```
+
+```{r}
+plot(tre.pars, cex=0.6)
+```
+
